@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
 	rsync \
 	ssh
 RUN pip install \
-	ansible==2.7 \
+	ansible==2.8.4 \
 	boto \
 	boto3
 
