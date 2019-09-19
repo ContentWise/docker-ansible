@@ -2,9 +2,10 @@ FROM ubuntu:18.04
 RUN apt-get update && apt-get install -y \
 	python-pip  \
 	rsync \
+        git \
 	ssh
 RUN pip install \
-	ansible==2.8.4 \
+	ansible==2.8.5 \
 	boto \
 	boto3
 
